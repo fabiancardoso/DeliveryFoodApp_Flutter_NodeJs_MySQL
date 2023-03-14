@@ -1,0 +1,13 @@
+###
+GET http://localhost:6000/productos/
+
+###
+POST http://localhost:6000/productos
+Content-Type: application/json
+  
+  {
+    "id": 3,
+    "name": "pepsi",
+    "price": 3   
+  }
+###
